@@ -1,0 +1,17 @@
+a.navbar-brand{
+	padding-top: 6px;
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+	.about-left{
+		width: 40%;
+	}
+	.about-right{
+		width: 60%;
+	}
+}
+@media (min-width: 1200px) {
+	
+}
