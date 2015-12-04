@@ -60,7 +60,7 @@ $(document).ready(function() {
   // -----------------------------------------
   // Enable the viual refresh
   google.maps.visualRefresh = true;
-  var myLatlng = new google.maps.LatLng(37.788149,-122.4071);
+  var myLatlng = new google.maps.LatLng(41.9508915, -87.6827676);
   var map;
   var grayStyles = [
       {
@@ -75,7 +75,7 @@ $(document).ready(function() {
   function initialize() {
     var mapOptions = {
       zoom: 13,
-      center: new google.maps.LatLng(37.788149,-122.4071),
+      center: new google.maps.LatLng(41.9508915, -87.6827676),
       mapTypeControlOptions: {
         style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
     },
@@ -93,7 +93,7 @@ $(document).ready(function() {
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title:"Name of Location"
+        title:"Chicago"
     });
   }
 
